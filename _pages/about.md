@@ -11,12 +11,12 @@ redirect_from:
 I am a 3rd year Phd student in economics at Princeton. I am interested in gender and ideology.
 
 <h1> Publications </h1>
+
 <b>[Experimental Economics: Past and Future](http://ksarnoff.github.io/files/annRevExp.pdf)</b> <br>
 Joint with Guillaume Frechette and Leeat Yariv.  <br>
 Annual Review of Economics, forthcoming. <br>
 
-<b>[Experimental Economics: Past and Future](http://ksarnoff.github.io/files/annRevExp.pdf)</b> <br>
-Joint with Guillaume Frechette and Leeat Yariv.  <br>
-Annual Review of Economics, forthcoming.
 
 <h1> CV </h1>
+Download <b>[here](http://ksarnoff.github.io/files/cv.pdf)</b>
+
