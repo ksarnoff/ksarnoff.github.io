@@ -15,6 +15,7 @@ author_profile: true
 
 <h1>Working Papers</h1>
 
+{% include base_path %}
 
 {% for post in site.working reversed %}
   {% include archive-single.html %}
