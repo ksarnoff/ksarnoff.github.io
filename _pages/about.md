@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 3rd year Phd student in economics at Princeton. I am interested in gender and ideology.
+I am a 3rd year PhD student in economics at Princeton. I am interested in gender and ideology.
 
 <h1> Publications </h1>
 
@@ -18,5 +18,5 @@ Annual Review of Economics, forthcoming. <br>
 
 
 <h1> CV </h1>
-Download <b>[here](http://ksarnoff.github.io/files/cv.pdf)</b>
+Download <b>[here](http://ksarnoff.github.io/files/cv.pdf)</b>.
 
