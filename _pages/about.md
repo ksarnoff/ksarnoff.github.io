@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 3rd year PhD student in economics at Princeton. I am interested in gender and ideology.
+I am a 5th year PhD student in economics at Princeton. I am interested in gender and ideology.
 
 <h1> Publications </h1>
 
