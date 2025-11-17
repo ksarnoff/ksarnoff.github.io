@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Privacy-friendly analytics by Plausible -->
+<script async src="https://plausible.io/js/pa-B79o3ecaz12FFtv8Qc7Fi.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Name — Academic</title>
+
+<!-- Preload fonts (Safari benefits from this) -->
+<link rel="preload" href="fonts/frost-type-blank/FTSystem-BlankBook.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/frost-type-blank/FTSystem-BlankSemibold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/frost-type-blank/FTSystem-BlankSkeleton.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/frost-type-blank/FTSystem-BlankSkeletonItalic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/frost-type-blank/FTSystem-BlankBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/frost-type-blank/FTSystem-BlankBoldItalic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/frost-type-blank/FTSystem-BlankHeavy.woff2" as="font" type="font/woff2" crossorigin>
+
+
+<link rel="preload" href="fonts/akzidenz grotesque/AkzidGrtskNext-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/akzidenz grotesque/AkzidGrtskNext-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preload" href="fonts/neue-haas-unica/NeueHaasUnicaPro-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/neue-haas-unica/NeueHaasUnicaPro-Bold.ttf" as="font" type="font/ttf" crossorigin>
+
+
+<style>
+  :root{
+    --bg:#ffffff;
+    --text:#0b0f19;
+    --muted:#6b7280;
+    --line:#e5e7eb;
+    --link:#0f172a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0a0f1a;
+      --text:#e6edf7;
+      --muted:#a7b3c8;
+      --line:#1b2537;
+      --link:#dbe7ff;
+    }
+  }
+
+  @font-face{
+    font-family:'blank-book';
+    src: url('fonts/frost-type-blank/FTSystem-BlankRegular.woff2') format('woff2');
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  }
+  @font-face{
+    font-family:'blank-book';
+    src: url('fonts/frost-type-blank/FTSystem-BlankSemibold.woff2') format('woff2');
+    font-weight:600;
+    font-style:normal;
+    font-display:swap;
+  }
+  @font-face{
+    font-family:'blank-book';
+    src: url('fonts/frost-type-blank/FTSystem-BlankBold.woff2') format('woff2');
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  }
+  @font-face{
+    font-family:'blank-book';
+    src: url('fonts/frost-type-blank/FTSystem-BlankHeavy.woff2') format('woff2');
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  }
+  @font-face{
+    font-family:'blank-book';
+    src: url('fonts/frost-type-blank/FTSystem-BlankSkeleton.woff2') format('woff2');
+    font-weight:200;
+    font-style:normal;
+    font-display:swap;
+  }
+
+
+  @font-face{
+    font-family:'akz-book';
+    src: url('fonts/akzidenz grotesque/AkzidGrtskNext-Regular.woff2') format('woff2');
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  }
+  @font-face{
+    font-family:'akz-book';
+    src: url('fonts/akzidenz grotesque/AkzidGrtskNext-Bold.woff2') format('woff2');
+    font-weight:600;
+    font-style:normal;
+    font-display:swap;
+  }
+
+  @font-face{
+    font-family:'neuehaas-book';
+    src: url('fonts/neue-haas-unica/NeueHaasUnicaPro-Regular.ttf') format('ttf');
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  }
+  @font-face{
+    font-family:'neuehaas-book';
+    src: url('fonts/neue-haas-unica/NeueHaasUnicaPro-Bold.ttf') format('ttf');
+    font-weight:600;
+    font-style:normal;
+    font-display:swap;
+  }
+
+  *{box-sizing:border-box}
+  html,body{
+    margin:0; padding:0;
+    background:var(--bg); color:var(--text);
+    /* font-family:'blank-book', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; */
+    font-family:ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    font-size:16px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    /* Prevent fake bold/italic substitutions that can trigger fallbacks */
+    font-synthesis: none;
+    font-synthesis-weight: none;
+    font-synthesis-style: none;
+    letter-spacing:.005em;
+  }
+  /* Ensure descendants inherit the intended family/weight */
+  body, p, li, ul, ol, nav, section, article, summary, .bio, .meta {
+    font-family: inherit;
+    font-weight: 400;
+  }
+
+  a{color:var(--link); text-decoration:none; transition:color .2s ease}
+  a:hover{color:var(--muted)}
+
+    /* Bright blue link class */
+  .brightlink{
+    color:#002fa7;          /* Yves Klein blue */
+    text-decoration:none;
+    transition:color .2s ease;
+  }
+  .brightlink:hover{
+    color:var(--muted);     /* fallback hover color you already use */
+  }
+  /* PDF links use the same behavior as .brightlink */
+  a[href$=".pdf"]{
+    color:#002fa7;
+    text-decoration:none;
+    transition:color .2s ease;
+  }
+  a[href$=".pdf"]:hover{
+    color:var(--muted);
+  }
+
+  .wrap{max-width:880px; margin:72px auto; padding:0 20px}
+
+  /* Masthead with photo */
+  .masthead{
+    display:grid;
+    grid-template-columns: 160px 1fr;
+    gap:28px;
+    align-items:start;
+    margin-bottom:60px;
+  }
+  .photo{
+    width:160px;
+    aspect-ratio:3/4;
+    object-fit:cover;
+    background:#f3f4f6;
+    border:1px solid var(--line);
+    display:block;
+  }
+  /* Use hairline only for the h1 in the masthead */
+  .masthead h1{
+    font-family:'blank-bold','blank-book', sans-serif;
+    font-weight:400;           /* avoid bold substitution */
+    font-size:clamp(28px,4.2vw,40px);
+    line-height:1.15;
+    margin:0 0 20px 0;
+    letter-spacing:.1px;
+  }
+
+  .bio{color:var(black); margin:0 0 10px 0; max-width:68ch}
+  nav{display:flex; gap:18px; flex-wrap:wrap; margin-top:6px}
+  nav a{font-size:15px}
+
+  @media (max-width:680px){
+    .wrap{margin:48px auto}
+    .masthead{grid-template-columns:1fr; gap:16px; text-align:left}
+    .photo{width:120px}
+  }
+
+  main{display:grid; gap:44px}
+  .section{ padding-top:0 }
+  .section h2{
+    margin:0 0 12px 0;
+    font-size:16px;
+    font-weight:600;           /* uses blank-book @ 600 face above */
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--muted);
+  }
+
+  .list{display:grid; gap:24px}
+  details{padding:0}
+  summary{ cursor:pointer; list-style:none; font-weight:500 }
+  summary::-webkit-details-marker{display:none}
+  summary:focus{outline:none}
+  summary::after{
+    content:"›";
+    margin-left:.45rem; display:inline-block;
+    transform:translateY(-1px);
+    transition:transform .35s ease; opacity:.75;
+  }
+  details[open] summary::after{ transform:rotate(90deg) translateX(1px) }
+
+  .meta{color:var(--muted); font-size:14px; margin-top:2px}
+  .body{margin-top:8px}
+  .body p{margin:0}
+  footer{margin-top:56px; color:var(--muted); font-size:14px}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <img class="photo" id="photo" src="https://via.placeholder.com/1200x1600.png?text=Your+Photo" alt="">
+      <div>
+        <h1 id="name">Kim Sarnoff</h1>
+        <p class="bio" id="bio">
+            I am a PhD candidate in Economics at Princeton University.
+            </p>
+              <p class="bio" id="bio">
+            My research interests include experimental economics, behavioral economics, and labor economics.
+            </p>
+        <p class="bio" id="bio">
+            <strong>I am on the 2025-26 job market.</strong>
+        </p>
+        <p class="bio" id="bio">
+            My CV is <a class="brightlink" href="/files/sarnoff_cv.pdf">here</a>. You can contact me at <a class="brightlink" href="mailto:ksarnoff@princeton.edu">ksarnoff@princeton.edu</a>.
+        </p>
+        <!-- <nav aria-label="Sections">
+          <a href="#working-papers">Working Papers</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#contact">Contact</a>
+        </nav> -->
+      </div>
+    </header>
+
+    <main>
+      <section id="working-papers" class="section">
+        <h2>Working Papers</h2>
+        <div class="list">
+          <details open>
+            <summary>The Structure of Sequential Updating (<b>Job Market Paper</b>)</summary>
+            <div class="meta">[Draft soon]</div> 
+            <div class="body">
+                Abstract: ...
+            </div>
+          </details>
+
+          <details open>
+            <summary>Female Entrepreneurship and Trust in the Market (with Nava Ashraf, Alexia Delfino, and Ed Glaeser)</summary>
+            <div class="meta">R&amp;R at Journal of Political Economy · <a href="files/papers/adgs-trust.pdf">PDF</a></div> 
+          </details>
+
+          <details open>
+            <summary>Misconduct in Organizations (with Hassan Sayed)</summary>
+            <div class="meta">Draft: Sep 2025 · <a href="files/papers/ss-misconduct.pdf">PDF</a></div>
+            <!-- <div class="body"> -->
+              <!-- <ul style="margin-bottom:0">
+                <li>We develop …</li>
+                <li>We find …</li>
+                <li>Implications …</li>
+              </ul> -->
+            <!-- </div> -->
+          </details>
+
+          <details open>
+            <summary>Dynamic Updating about Menus</summary>
+            <div class="meta">Slides · <a href=".pdf">PDF (need to link)</a></div>
+            <div class="body"> 
+              Abstract: ...
+            </div>
+          </details>
+        </div>
+
+      </section>
+
+    <section id="publications" class="section">
+        <h2>Publications</h2>
+        <div class="list">
+          <details open>
+            <summary>Experimental Economics: Past and Future (with Guillaume Fréchette and Leeat Yariv)</summary>
+            <div class="meta">Annual Review of Economics · 2022 · <a href="files/papers/fsy-annualreview.pdf">PDF</a></div> 
+          </details>
+        </div>
+      </section>
+
+      <section id="teaching" class="section">
+        <h2>Teaching</h2>
+        <div class="list">
+          <details open>
+            <summary>SPI 511C: Advanced Microeconomic Analysis for Policymakers (Graduate)</summary>
+            <div class="meta">Fall 2024 · Princeton University</div>
+            <!-- <div class="body">
+              <p><strong>Syllabus:</strong> <a href="#">Download</a><br>
+              <strong>Office hours:</strong> Tue 2–4pm · Room 301</p>
+            </div> -->
+          </details>
+          <details open>
+            <summary>ECO 300: Microeconomic Theory (Undergraduate)</summary>
+            <div class="meta">Fall 2022 · Princeton University</div>
+            <!-- <div class="body">
+              <p><strong>Syllabus:</strong> <a href="#">Download</a><br>
+              <strong>Office hours:</strong> Tue 2–4pm · Room 301</p>
+            </div> -->
+          </details>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- <footer>
+      © <span id="year"></span> Your Name · Last updated Sep 9, 2025.
+    </footer> -->
+  </div>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
